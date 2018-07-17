@@ -47,3 +47,81 @@ table {
     box-sizing: border-box;
 }
 
+article {
+	padding: 20px;
+}
+
+article:nth-of-type(2n) {
+	background: #f5f5f5;
+}
+
+article:nth-of-type(2n -1) {
+	background: blue;
+	color: white;
+}
+
+p.article > span:first-of-type {
+		    /* font-style: italic; */
+    /* background: #efefef; */
+    display: inline-block;
+    /* margin: 5px 0px; */
+    /* padding: 5px; */
+    font-size: 17px;
+    font-weight: bold;
+    color: blue;
+}
+
+p.article > span:last-of-type {
+	margin-left: 10px;
+	border-left: 1px solid;
+	padding-left: 10px;
+}
+p.article > span:last-of-type.published {
+	color: gray;
+}
+p.article > span:last-of-type.unpublished {
+	color: #cccccc;
+}
+
+p.article {
+	margin-bottom: 5px;
+	border-bottom: 1px solid #cccccc;
+    padding-bottom: 5px;
+}
+
+.col-title {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+span.article-content {
+	font-size: 16px;
+}
+
+li {
+	margin-bottom: 20px;
+}
+
+p.article-link-wrapper {
+	margin-top: 10px;
+}
+
+.collaboration-name {
+    font-style: italic
+}
+
+#intro {
+
+}
+
+#publications {
+
+}
+
+#activities {
+
+}
+
+#teaching {
+
+}
