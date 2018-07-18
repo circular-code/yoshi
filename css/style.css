@@ -1,3 +1,99 @@
+/* Roboto */
+
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 100;
+	src: url(../fonts/Roboto/Roboto-Thin.ttf);
+}
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 200;
+	src: url(../fonts/Roboto/Roboto-Light.ttf);
+}
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	src: url(../fonts/Roboto/Roboto-Medium.ttf);
+}
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	src: url(../fonts/Roboto/Roboto-Bold.ttf);
+}
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 600;
+	src: url(../fonts/Roboto/Roboto-Black.ttf);
+}
+@font-face {
+	font-family: 'Roboto';
+	font-style: italic;
+	font-weight: 100;
+	src: url(../fonts/Roboto/Roboto-ThinItalic.ttf);
+}
+@font-face {
+	font-family: 'Roboto';
+	font-style: italic;
+	font-weight: 200;
+	src: url(../fonts/Roboto/Roboto-LightItalic.ttf);
+}
+@font-face {
+	font-family: 'Roboto';
+	font-style: italic;
+	font-weight: 300;
+	src: url(../fonts/Roboto/Roboto-Italic.ttf);
+}
+@font-face {
+	font-family: 'Roboto';
+	font-style: italic;
+	font-weight: 400;
+	src: url(../fonts/Roboto/Roboto-MediumItalic.ttf);
+}
+@font-face {
+	font-family: 'Roboto';
+	font-style: italic;
+	font-weight: 500;
+	src: url(../fonts/Roboto/Roboto-BoldItalic.ttf);
+}
+@font-face {
+	font-family: 'Roboto';
+	font-style: italic;
+	font-weight: 600;
+	src: url(../fonts/Roboto/Roboto-BlackItalic.ttf);
+}
+
+/* Libre_Baskerville */
+
+@font-face {
+	font-family: 'Libre_Baskerville';
+	font-style: normal;
+	font-weight: 300;
+	src: url(../fonts/Libre_Baskerville/LibreBaskerville-Regular.ttf);
+}
+@font-face {
+	font-family: 'Libre_Baskerville';
+	font-style: normal;
+	font-weight: bold;
+	src: url(../fonts/Libre_Baskerville/LibreBaskerville-Bold.ttf);
+}
+@font-face {
+	font-family: 'Libre_Baskerville';
+	font-style: italic;
+	font-weight: 300;
+	src: url(../fonts/Libre_Baskerville/LibreBaskerville-Italic.ttf);
+}
+
 /* Style reset */
 
 html, body, div, span, applet, object, iframe,
@@ -27,6 +123,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 ol, ul {
 	list-style: none;
@@ -56,7 +153,7 @@ article:nth-of-type(2n) {
 }
 
 article:nth-of-type(2n -1) {
-	background: blue;
+	background: #0072b7;
 	color: white;
 }
 
@@ -68,7 +165,8 @@ p.article > span:first-of-type {
     /* padding: 5px; */
     font-size: 17px;
     font-weight: bold;
-    color: blue;
+	color: #0072b7;
+	font-family: 'Libre_Baskerville', 'Times New Roman', Times, serif
 }
 
 p.article > span:last-of-type {
@@ -110,8 +208,44 @@ p.article-link-wrapper {
     font-style: italic
 }
 
-#intro {
+#jumbo {
+	background: url(../Johannes.png) no-repeat center center fixed;
+	height: 61.8%;
+	background-size: cover;
+}
 
+#jumbo + .row {
+	box-shadow: 0px -11px 25px 0px rgba(0,0,0,0.5);
+	position: static;
+}
+
+#jumbo + .row > .col-md-12 {
+	position: static;
+}
+
+#intro {
+	height: 100vh;
+	padding: 0;
+	position: relative;
+}
+
+#intro > div {
+	height: 100%;
+}
+
+#intro ul {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	font-size: 5em;
+	text-align: right;
+}
+
+#intro li span {
+	background-color: rgba(0,0,0,0.3);
+    padding: 15px 10px;
+    display: inline-block;
+	line-height: 65px;
 }
 
 #publications {
