@@ -112,7 +112,6 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
 }
@@ -244,15 +243,20 @@ p.article-link-wrapper {
 #introContact {
 	box-shadow: 0px -10px 10px 0px rgba(0,0,0,0.3);
 	position: static;
-	padding: 60px 50px;
+	padding: 50px;
 	font-size: 2.5rem;
     font-weight: 300;
-    font-family: 'Libre_Baskerville', 'Times New Roman', Times, serif;
 }
 
 #introContact h1, #introContact span {
 	margin-bottom: 20px;
 	display: block;
+}
+
+#introContact .address .fa-university {
+	position: absolute;
+	left: 0px;
+	top: 1px;
 }
 
 #jumbo + .row  > .col-md-12 {
@@ -328,9 +332,11 @@ span.address {
 }
 
 .contact .fa {
-    font-size: 1.7rem;
-    position: relative;
-    bottom: 0.3rem;
+    font-size: 1.3rem;
+}
+
+.address .fa {
+    font-size: 1.3rem;
 }
 
 a.activity-link {
@@ -359,10 +365,11 @@ p.activity {
 
 h4 {
 	font-size: 1.5rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.3rem;
     font-family: 'Libre_Baskerville', 'Times New Roman', Times, serif;
     font-weight: 300;
-    line-height: initial;
+	line-height: initial;
+	margin-top: 2rem;
 }
 
 .collaboration {
@@ -389,9 +396,13 @@ footer {
 span.topic {
 	font-weight: 200;
     font-style: italic;
-    margin-left: 1rem;
+    margin-left: 0.2rem;
     padding-left: 1rem;
     border-left: 1px solid;
+}
+
+#introContact a {
+	color: white;
 }
 
 #teaching span.date {
@@ -399,9 +410,49 @@ span.topic {
     display: inline-block;
 }
 
+#teaching p.description {
+    margin-top: 0.5rem;
+}
+
+#introContact .title {
+	font-family: 'Libre_Baskerville', 'Times New Roman', Times, serif;
+    font-size: 2rem;
+	font-weight: bold;
+	border-right: 2px solid;
+	margin-right: 20px;
+	position: relative;
+    bottom: 3px;
+}
+
+#introContact .contact {
+	border-left: 2px solid;
+    padding-left: 60px;
+}
+
+#introContact i {
+	margin-right: 20px;
+}
+#introContact > i {
+	position: absolute;
+    right: calc(50% - 30px);
+    bottom: 2%;
+	color: rgba(0, 0, 0, 0.2);
+    /* background-color: white; */
+    font-size: 4rem;
+}
+
+#introContact .col-md-3 {
+	padding-left: 3rem;
+}
+
+a.activity-link {
+	display: inline-block;
+	width: auto;
+}
+
 /* media querries */
 
-@media screen and (max-width:1400px) {
+@media screen and (max-width:1500px) {
 	#intro li span {
 		padding: 5px 10px;
 	}
@@ -409,9 +460,85 @@ span.topic {
 		font-size: 3.5rem;
 	}
 	li {
-		margin-bottom: 1rem;
+		margin-bottom: 1.5rem;
 	}
 	#introContact {
 		font-size: 1.5rem;
+	}
+	p.activity {
+		font-size: 1rem;
+	}
+}
+
+@media screen and (min-width: 1501px ) and (max-width:2559px) {
+	#introContact {
+		font-size: 1.5rem;
+	}
+	#introContact .title {
+		margin-right: 40px;
+	}
+}
+
+@media screen and (min-width: 2560px ) and (max-width:2879px) {
+	html {
+		font-size: 150.01%;
+	}
+	#introContact {
+		font-size: 2rem;
+	}
+	#introContact .title {
+		margin-right: 40px;
+	}
+	#intro li span {
+		padding: 30px 20px;
+    	font-size: 4rem;
+	}
+}
+
+@media screen and (min-width: 2880px) and (max-width:3400px) {
+	html {
+		font-size: 180.01%;
+	}
+	#introContact {
+		font-size: 2rem;
+	}
+	#introContact .title {
+		margin-right: 40px;
+	}
+	#intro li span {
+		padding: 30px 20px;
+    	font-size: 4rem;
+	}
+}
+
+@media screen and (min-width: 3401px ) and (max-width:3839px) {
+	html {
+		font-size: 230.01%;
+	}
+	#introContact {
+		font-size: 2rem;
+	}
+	#introContact .title {
+		margin-right: 40px;
+	}
+	#intro li span {
+		padding: 70px 40px;
+    	font-size: 5rem;
+	}
+}
+
+@media screen and (min-width: 3840px) {
+	html {
+		font-size: 230.01%;
+	}
+	#introContact {
+		font-size: 2rem;
+	}
+	#introContact .title {
+		margin-right: 40px;
+	}
+	#intro li span {
+		padding: 70px 40px;
+    	font-size: 5rem;
 	}
 }
