@@ -236,7 +236,7 @@ p.article-link-wrapper {
 
 #jumbo {
 	background: url(../Johannes.png) no-repeat center center fixed;
-	height: 61.8%;
+	height: 100%;
 	background-size: cover;
 }
 
@@ -264,7 +264,7 @@ p.article-link-wrapper {
 }
 
 #intro {
-	height: 100vh;
+	height: 70vh;
 	padding: 0;
 	position: relative;
 }
@@ -359,8 +359,32 @@ p.activity {
 	margin-top: 2rem;
 }
 
+#introContact {
+	background: #0072b7;
+    color: white;
+}
+
 #teaching ul {
-	padding: 1rem 2rem;
+	padding: 1rem 3px;
+}
+
+.fold {
+	cursor: pointer;
+	position: relative;
+}
+
+.fold > i {
+	position: absolute;
+	left:50em;
+	top: 0;
+}
+
+.fold:last-child {
+	margin-bottom: 1rem;
+}
+
+#ottoUniv, #karlsUniv {
+	display: none;
 }
 
 h4 {
