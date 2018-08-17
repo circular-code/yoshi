@@ -1,3 +1,22 @@
+TODO:
+Research Interests Styling
+Blauer Balken
+Abstände nach grundlinie links glattziehen
+mobiloptimierung
+Articles überschrift über die Articles maybe?
+Impressum
+Datenschutz
+
+TODO:Inhalte
+Bild v. Yoshi
+Research InterestsCurrent Teachings
+Geupdatete Teachings / events
+CV Daten
+Subtext für ersten Artikel (entweder zusammenarbeit oder veröffentlichungsdetails/hinweis)
+Sollen die Artikel nach Published und unpublished sortiert werden?
+Impressum
+Datenschutz
+
 Farbschemata
 ------------
 Grau und Blau. Hier einige Beispiele:

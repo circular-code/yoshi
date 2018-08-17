@@ -457,12 +457,12 @@ span.topic {
 	margin-right: 20px;
 }
 #introContact > i {
-	position: absolute;
-    right: calc(50% - 30px);
+    position: absolute;
+    right: calc(50% - 10rem);
     bottom: 2%;
-	color: rgba(0, 0, 0, 0.2);
+    color: rgba(0, 0, 0, 0.2);
     /* background-color: white; */
-    font-size: 4rem;
+    font-size: 16rem;
 }
 
 #introContact .col-md-3 {
