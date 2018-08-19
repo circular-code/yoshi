@@ -161,7 +161,7 @@ body > * {
 /* custom style */
 
 article {
-	padding: 20px;
+	padding: 1rem 1rem 2rem;
 }
 
 article:nth-of-type(2n) {
@@ -176,7 +176,6 @@ article:nth-of-type(2n -1) .col-title {
 	color: white;
 }
 
-
 p.article > a {
 		    /* font-style: italic; */
     /* background: #efefef; */
@@ -186,11 +185,12 @@ p.article > a {
     font-size: 1.7rem;
     font-weight: bold;
 	color: #0072b7;
-	font-family: 'Libre_Baskerville', 'Times New Roman', Times, serif
+	font-family: 'Libre_Baskerville', 'Times New Roman', Times, serif;
+	margin-right: 10px;
+	margin-bottom: 3px;
 }
 
 p.article > span {
-	margin-left: 10px;
 	border-left: 1px solid;
 	padding-left: 10px;
 }
@@ -211,7 +211,7 @@ p.article {
 .col-title {
 	font-size: 3.7rem;
     font-weight: bold;
-    margin: 20px 0px 30px 0px;
+	margin: 1rem 0px 2rem 0px;
 	color: #464646;
 	border-bottom: 5px solid;
 	display: inline-block;
@@ -248,15 +248,23 @@ p.article-link-wrapper {
     font-weight: 300;
 }
 
-#introContact h1, #introContact span {
-	margin-bottom: 20px;
+#introContact h1 {
 	display: block;
 }
 
-#introContact .address .fa-university {
-	position: absolute;
-	left: 0px;
-	top: 1px;
+.title-container i {
+	position: relative;
+	bottom: 2px;
+}
+
+#introContact .title-container {
+	font-family: 'Libre_Baskerville', 'Times New Roman', Times, serif;
+}
+
+#introContact span {
+	margin-bottom: 0.5rem;
+	display: block;
+	font-size: 1.3rem;
 }
 
 #jumbo + .row  > .col-md-12 {
@@ -269,8 +277,26 @@ p.article-link-wrapper {
 	position: relative;
 }
 
+#introContact .title-container {
+	margin-bottom: 1rem;
+    border-bottom: 2px solid white;
+    padding-bottom: 0.5rem;
+}
+
+#introContact .title-container h2 {
+	display: inline;
+}
+
 #intro li {
 	margin-bottom: 1rem;
+}
+
+#research .col-sm-5 h4 {
+	padding-left: 60px;
+}
+
+#research h4 {
+	font-size: 1.4rem;
 }
 
 #intro > div {
@@ -281,7 +307,7 @@ p.article-link-wrapper {
 	position: absolute;
 	top: 30px;
 	right: 30px;
-	font-size: 5rem;
+	font-size: 4.5rem;
 	text-align: right;
 }
 
@@ -289,7 +315,7 @@ p.article-link-wrapper {
 	background-color: rgba(0,0,0,0.3);
     padding: 15px 10px;
     display: inline-block;
-	line-height: 65px;
+	line-height: 4.5rem;
 	font-weight: 500;
 }
 
@@ -304,10 +330,12 @@ p.article-link-wrapper {
 }
 
 #publications .col-content {
-	padding-top: 40px;
-    padding-left: 40px;
-    display: inline-block;
+	padding-top: 20px;
     vertical-align: text-bottom;
+}
+
+#research {
+	padding-bottom: 3rem;
 }
 
 h3 {
@@ -409,12 +437,24 @@ i {
 }
 
 footer {
-	padding: 3rem;
-    text-align: center;
+	padding: 1rem 1rem 0;
     background: #464646;
     color: white;
     font-weight: bold;
-    font-family: 'Libre_Baskerville', 'Times New Roman', Times, serif;
+	font-family: 'Libre_Baskerville', 'Times New Roman', Times, serif;
+}
+
+footer article {
+	background: #464646!important;
+}
+
+#imprint, #imprint .col-title {
+	color: white;
+	font-family: Roboto, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#imprint p {
+	margin-bottom: 0.5rem;
 }
 
 span.topic {
@@ -442,27 +482,44 @@ span.topic {
 	font-family: 'Libre_Baskerville', 'Times New Roman', Times, serif;
     font-size: 2rem;
 	font-weight: bold;
-	border-right: 2px solid;
 	margin-right: 20px;
 	position: relative;
     bottom: 3px;
 }
 
-#introContact .contact {
-	border-left: 2px solid;
+#research .title {
+	margin-right: 20px;
+	position: relative;
+	bottom: 3px;
+	padding-right: 1rem;
+}
+
+#introContact .contact, #research .contact {
     padding-left: 60px;
 }
 
-#introContact i {
-	margin-right: 20px;
+.focus-point {
+	border-right: 2px solid;
+}
+
+#introContact .content-container i {
+	margin-right: 1rem;
 }
 #introContact > i {
     position: absolute;
-    right: calc(50% - 10rem);
-    bottom: 2%;
+    right: calc(50% - 8rem);
     color: rgba(0, 0, 0, 0.2);
     /* background-color: white; */
     font-size: 16rem;
+}
+
+#imprint {
+	background: #2b2b2b!important;
+}
+
+#research h4 {
+	margin-bottom: 1rem;
+    font-weight: bold;
 }
 
 #introContact .col-md-3 {
@@ -474,7 +531,113 @@ a.activity-link {
 	width: auto;
 }
 
+#privacy {
+	font-family: Roboto, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: 300;
+}
+
+#privacy p {
+	margin-bottom: 1rem;
+}
+
+#privacy h2 {
+	font-weight: bold;
+	font-family: Roboto, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	;
+}
+
+.content-block {
+	border-left: 5px solid white;
+    padding: 0 1rem;
+    margin-bottom: 1.5rem;
+}
+
 /* media querries */
+
+@media screen and (max-width:991px) {
+	#research .contact {
+		padding-left: 0;
+	}
+
+	span.article-content {
+		font-size: 1.1rem;
+	}
+
+	#introContact > div, #introContact .col-md-3 {
+		padding: 0;
+	}
+
+	#introContact .contact {
+		padding-left: 0;
+	}
+
+	#introContact {
+		padding: calc(1rem + 15px);
+	}
+
+	#introContact .title {
+		margin-bottom: 2rem;
+	}
+
+	#introContact .address {
+		margin-bottom: 2rem;
+	}
+
+	#introContact .col-sm-3 {
+		width: 50%;
+		margin-right: 2rem;
+	}
+
+	.fold > i {
+		left: -5px;
+		top: 5px;
+	}
+
+	#teaching h4 {
+		padding-left: 1rem;
+	}
+
+	body #intro ul {
+		font-size: 3rem;
+	}
+}
+
+@media screen and (max-width:767px) {
+	#introContact .col-sm-3 {
+		width: 100%;
+	}
+
+	body #intro ul {
+		font-size: 2.5rem;
+	}
+
+	#jumbo {
+		background-position-x: left;
+	}
+
+	#intro li span {
+		line-height: 2.5rem;
+	}
+}
+
+
+@media screen and (max-width:500px) {
+	body #intro ul {
+		font-size: 1.5rem;
+	}
+
+	#intro li span {
+		line-height: 1.5rem;
+	}
+
+	#introContact h1 {
+		font-size: 1.5rem;
+	}
+
+	article .col-title {
+		font-size: 2.3rem;
+	}
+}
 
 @media screen and (max-width:1500px) {
 	#intro li span {
