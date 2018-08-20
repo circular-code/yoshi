@@ -1,3 +1,9 @@
+TODO:
+Überschriften kleiner
+Bilder einfügen (srcset)
+address/contact width
+description stylen
+
 TODO:Inhalte
 Bild v. Yoshi
 Research InterestsCurrent Teachings

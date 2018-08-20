@@ -164,15 +164,20 @@ article {
 	padding: 1rem 1rem 2rem;
 }
 
-article:nth-of-type(2n) {
-	background: #f5f7f9;;
+article:nth-of-type(2n -1) {
+	background: #f5f7f9;
 }
 
-article:nth-of-type(2n -1) {
+article:nth-of-type(2n) {
 	background: #0072b7;
 	color: white;
 }
-article:nth-of-type(2n -1) .col-title {
+article:nth-of-type(2n) .col-title {
+	color: white;
+}
+
+#description {
+	background-color: #0072b7;
 	color: white;
 }
 
@@ -197,7 +202,7 @@ p.article > span {
 p.article > span:last-of-type.published {
 	color: gray;
 }
-p.article > span:last-of-type.unpublished {
+p.article > span:last-of-type.preprint {
 	color: #cccccc;
 }
 
@@ -243,9 +248,15 @@ p.article-link-wrapper {
 #introContact {
 	box-shadow: 0px -10px 10px 0px rgba(0,0,0,0.3);
 	position: static;
-	padding: 50px;
+	padding: 3rem 2rem;
 	font-size: 2.5rem;
     font-weight: 300;
+}
+
+
+
+#introContact > div:first-of-type {
+	padding-left: 0;
 }
 
 #introContact h1 {
@@ -299,6 +310,10 @@ p.article-link-wrapper {
 	font-size: 1.4rem;
 }
 
+#research p {
+	margin-bottom: 1rem;
+}
+
 #intro > div {
 	height: 100%;
 }
@@ -317,6 +332,7 @@ p.article-link-wrapper {
     display: inline-block;
 	line-height: 4.5rem;
 	font-weight: 500;
+	color: white;
 }
 
 #publications li {
@@ -504,6 +520,7 @@ span.topic {
 
 #introContact .content-container i {
 	margin-right: 1rem;
+	min-width: 1.3rem;
 }
 #introContact > i {
     position: absolute;
