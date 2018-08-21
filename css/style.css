@@ -139,10 +139,8 @@ table {
     box-sizing: border-box;
 }
 
-
 html {
 	font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	line-height: 1;
 	font-weight: 300;
     /*  compensates rounding errors, in particular in older versions of Opera and Safari */
     font-size: 100.01%;
@@ -510,10 +508,6 @@ span.topic {
 	padding-right: 1rem;
 }
 
-#introContact .contact, #research .contact {
-    padding-left: 60px;
-}
-
 .focus-point {
 	border-right: 2px solid;
 }
@@ -548,6 +542,10 @@ a.activity-link {
 	width: auto;
 }
 
+#research .col-content h4 {
+	margin-top: 0;
+}
+
 #privacy {
 	font-family: Roboto, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 	font-weight: 300;
@@ -560,7 +558,34 @@ a.activity-link {
 #privacy h2 {
 	font-weight: bold;
 	font-family: Roboto, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-	;
+}
+
+#privacy .col-title {
+	color: white;
+}
+
+#cv .description {
+	font-family: 'Libre_Baskerville', 'Times New Roman', Times, serif;
+	padding-top: 0.3rem;
+}
+
+#description a, #introContact a {
+	color: white;
+	text-decoration: underline;
+}
+
+#description p {
+	font-size: 1.2rem;
+	font-style: italic;
+}
+
+#description .col-content {
+	padding: 1rem;
+    background: #ffffff24;
+}
+
+.cv-wrapper {
+    padding: 1rem 0;
 }
 
 .content-block {
