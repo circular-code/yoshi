@@ -569,7 +569,7 @@ a.activity-link {
 	padding-top: 0.3rem;
 }
 
-#description a, #introContact a {
+#description a, #introContact a, #research a {
 	color: white;
 	text-decoration: underline;
 }
@@ -592,6 +592,11 @@ a.activity-link {
 	border-left: 5px solid white;
     padding: 0 1rem;
     margin-bottom: 1.5rem;
+}
+
+sup {
+	position: relative;
+    top: -3px;
 }
 
 /* media querries */

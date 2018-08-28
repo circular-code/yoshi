@@ -27,5 +27,4 @@ $('.fold').on('click', function() {
         icon.addClass('fa-chevron-up');
         icon.removeClass('fa-chevron-down');
     }
-
 });
