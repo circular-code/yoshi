@@ -1,787 +1,876 @@
 /* Roboto */
 
 @font-face {
-	font-family: 'Roboto';
-	font-style: normal;
-	font-weight: 100;
-	src: url(../fonts/Roboto/Roboto-Thin.ttf);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 100;
+  src: url(../fonts/Roboto/Roboto-Thin.ttf);
 }
 @font-face {
-	font-family: 'Roboto';
-	font-style: normal;
-	font-weight: 200;
-	src: url(../fonts/Roboto/Roboto-Light.ttf);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 200;
+  src: url(../fonts/Roboto/Roboto-Light.ttf);
 }
 @font-face {
-	font-family: 'Roboto';
-	font-style: normal;
-	font-weight: 300;
-	src: url(../fonts/Roboto/Roboto-Regular.ttf);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
 }
 @font-face {
-	font-family: 'Roboto';
-	font-style: normal;
-	font-weight: 400;
-	src: url(../fonts/Roboto/Roboto-Medium.ttf);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Roboto/Roboto-Medium.ttf);
 }
 @font-face {
-	font-family: 'Roboto';
-	font-style: normal;
-	font-weight: 500;
-	src: url(../fonts/Roboto/Roboto-Bold.ttf);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  src: url(../fonts/Roboto/Roboto-Bold.ttf);
 }
 @font-face {
-	font-family: 'Roboto';
-	font-style: normal;
-	font-weight: 600;
-	src: url(../fonts/Roboto/Roboto-Black.ttf);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  src: url(../fonts/Roboto/Roboto-Black.ttf);
 }
 @font-face {
-	font-family: 'Roboto';
-	font-style: italic;
-	font-weight: 100;
-	src: url(../fonts/Roboto/Roboto-ThinItalic.ttf);
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 100;
+  src: url(../fonts/Roboto/Roboto-ThinItalic.ttf);
 }
 @font-face {
-	font-family: 'Roboto';
-	font-style: italic;
-	font-weight: 200;
-	src: url(../fonts/Roboto/Roboto-LightItalic.ttf);
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 200;
+  src: url(../fonts/Roboto/Roboto-LightItalic.ttf);
 }
 @font-face {
-	font-family: 'Roboto';
-	font-style: italic;
-	font-weight: 300;
-	src: url(../fonts/Roboto/Roboto-Italic.ttf);
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 300;
+  src: url(../fonts/Roboto/Roboto-Italic.ttf);
 }
 @font-face {
-	font-family: 'Roboto';
-	font-style: italic;
-	font-weight: 400;
-	src: url(../fonts/Roboto/Roboto-MediumItalic.ttf);
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 400;
+  src: url(../fonts/Roboto/Roboto-MediumItalic.ttf);
 }
 @font-face {
-	font-family: 'Roboto';
-	font-style: italic;
-	font-weight: 500;
-	src: url(../fonts/Roboto/Roboto-BoldItalic.ttf);
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 500;
+  src: url(../fonts/Roboto/Roboto-BoldItalic.ttf);
 }
 @font-face {
-	font-family: 'Roboto';
-	font-style: italic;
-	font-weight: 600;
-	src: url(../fonts/Roboto/Roboto-BlackItalic.ttf);
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 600;
+  src: url(../fonts/Roboto/Roboto-BlackItalic.ttf);
 }
 
 /* Libre_Baskerville */
 
 @font-face {
-	font-family: 'Libre_Baskerville';
-	font-style: normal;
-	font-weight: 300;
-	src: url(../fonts/Libre_Baskerville/LibreBaskerville-Regular.ttf);
+  font-family: "Libre_Baskerville";
+  font-style: normal;
+  font-weight: 300;
+  src: url(../fonts/Libre_Baskerville/LibreBaskerville-Regular.ttf);
 }
 @font-face {
-	font-family: 'Libre_Baskerville';
-	font-style: normal;
-	font-weight: bold;
-	src: url(../fonts/Libre_Baskerville/LibreBaskerville-Bold.ttf);
+  font-family: "Libre_Baskerville";
+  font-style: normal;
+  font-weight: bold;
+  src: url(../fonts/Libre_Baskerville/LibreBaskerville-Bold.ttf);
 }
 @font-face {
-	font-family: 'Libre_Baskerville';
-	font-style: italic;
-	font-weight: 300;
-	src: url(../fonts/Libre_Baskerville/LibreBaskerville-Italic.ttf);
+  font-family: "Libre_Baskerville";
+  font-style: italic;
+  font-weight: 300;
+  src: url(../fonts/Libre_Baskerville/LibreBaskerville-Italic.ttf);
 }
 
 /* Style reset */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-	font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	font-weight: 300;
-    /*  compensates rounding errors, in particular in older versions of Opera and Safari */
-    font-size: 100.01%;
+  font-family: "Roboto", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 300;
+  /*  compensates rounding errors, in particular in older versions of Opera and Safari */
+  font-size: 100.01%;
 }
 
 body {
-    /* use em like px */
-    font-size: 62.5%;
-    color: #333;
+  /* use em like px */
+  font-size: 62.5%;
+  color: #333;
 }
 
 body > * {
-	font-size: 1rem;
+  font-size: 1rem;
 }
 
 /* custom style */
 
 article {
-	padding: 1rem 1rem 2rem;
+  padding: 1rem 1rem 2rem;
 }
 
 article:nth-of-type(2n -1) {
-	background: #f5f7f9;
+  background: #f5f7f9;
 }
 
 article:nth-of-type(2n) {
-	background: #0072b7;
-	color: white;
+  background: #0072b7;
+  color: white;
 }
 article:nth-of-type(2n) .col-title {
-	color: white;
+  color: white;
 }
 
 #description {
-	background-color: #0072b7;
-	color: white;
+  background-color: #0072b7;
+  color: white;
 }
 
 p.article > a {
-		    /* font-style: italic; */
-    /* background: #efefef; */
-    display: inline-block;
-    /* margin: 5px 0px; */
-    /* padding: 5px; */
-    font-size: 1.7rem;
-    font-weight: bold;
-	color: #0072b7;
-	font-family: 'Libre_Baskerville', 'Times New Roman', Times, serif;
-	margin-right: 10px;
-	margin-bottom: 3px;
+  /* font-style: italic; */
+  /* background: #efefef; */
+  display: inline-block;
+  /* margin: 5px 0px; */
+  /* padding: 5px; */
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #0072b7;
+  font-family: "Libre_Baskerville", "Times New Roman", Times, serif;
+  margin-right: 10px;
+  margin-bottom: 3px;
 }
 
 p.article > span {
-	border-left: 1px solid;
-	padding-left: 10px;
+  border-left: 1px solid;
+  padding-left: 10px;
 }
 p.article > span:last-of-type.published {
-	color: gray;
+  color: gray;
 }
 p.article > span:last-of-type.preprint {
-	color: #cccccc;
+  color: #cccccc;
 }
 
 p.article {
-	margin-bottom: 10px;
-	border-bottom: 2px solid #cccccc;
-	display: inline-block;
-	padding-bottom: 5px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #cccccc;
+  display: inline-block;
+  padding-bottom: 5px;
 }
 
 .col-title {
-	font-size: 3.7rem;
-    font-weight: bold;
-	margin: 1rem 0px 2rem 0px;
-	color: #464646;
-	border-bottom: 5px solid;
-	display: inline-block;
+  font-size: 3.7rem;
+  font-weight: bold;
+  margin: 1rem 0px 2rem 0px;
+  color: #464646;
+  border-bottom: 5px solid;
+  display: inline-block;
 }
 
 span.article-content {
-	font-size: 1.4rem;
+  font-size: 1.4rem;
 }
 
 li {
-	margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 p.article-link-wrapper {
-	margin-top: 10px;
+  margin-top: 10px;
 }
 
 .collaboration-name {
-	font-style: italic;
-	font-weight: 400;
+  font-style: italic;
+  font-weight: 400;
 }
 
 #jumbo {
-	background: url(../yoshi_fullhd_1920.jpg) no-repeat center center fixed;
-	height: 100%;
-	background-size: cover;
+  background: url(../yoshi_fullhd_1920.jpg) no-repeat center center fixed;
+  height: 100%;
+  background-size: cover;
 }
 
 #introContact {
-	box-shadow: 0px -10px 10px 0px rgba(0,0,0,0.3);
-	position: static;
-	padding: 3rem 2rem;
-	font-size: 2.5rem;
-    font-weight: 300;
+  box-shadow: 0px -10px 10px 0px rgba(0, 0, 0, 0.3);
+  position: static;
+  padding: 3rem 2rem;
+  font-size: 2.5rem;
+  font-weight: 300;
 }
 
-
-
 #introContact > div:first-of-type {
-	padding-left: 0;
+  padding-left: 0;
 }
 
 #introContact h1 {
-	display: block;
+  display: block;
 }
 
 .title-container i {
-	position: relative;
-	bottom: 2px;
+  position: relative;
+  bottom: 2px;
 }
 
 #introContact .title-container {
-	font-family: 'Libre_Baskerville', 'Times New Roman', Times, serif;
+  font-family: "Libre_Baskerville", "Times New Roman", Times, serif;
 }
 
 #introContact span {
-	margin-bottom: 0.5rem;
-	display: block;
-	font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  display: block;
+  font-size: 1.3rem;
 }
 
-#jumbo + .row  > .col-md-12 {
-	position: static;
+#jumbo + .row > .col-md-12 {
+  position: static;
 }
 
 #intro {
-	height: 70vh;
-	padding: 0;
-	position: relative;
+  height: 70vh;
+  padding: 0;
+  position: relative;
 }
 
 #introContact .title-container {
-	margin-bottom: 1rem;
-    border-bottom: 2px solid white;
-    padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid white;
+  padding-bottom: 0.5rem;
 }
 
 #introContact .title-container h2 {
-	display: inline;
+  display: inline;
 }
 
 #intro li {
-	margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 #research .col-sm-5 h4 {
-	padding-left: 60px;
+  padding-left: 60px;
 }
 
 #research h4 {
-	font-size: 1.4rem;
+  font-size: 1.4rem;
 }
 
 #research p {
-	margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 #intro > div {
-	height: 100%;
+  height: 100%;
 }
 
 #intro ul {
-	position: absolute;
-	top: 30px;
-	right: 30px;
-	font-size: 4.5rem;
-	text-align: right;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  font-size: 4.5rem;
+  text-align: right;
 }
 
 #intro li span {
-	background-color: rgba(0,0,0,0.3);
-    padding: 15px 10px;
-    display: inline-block;
-	line-height: 4.5rem;
-	font-weight: 500;
-	color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 15px 10px;
+  display: inline-block;
+  line-height: 4.5rem;
+  font-weight: 500;
+  color: white;
 }
 
 #publications li {
-	margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 #publications .col-title {
-	border-bottom: 5px solid #464646;
-    display: inline-block;
-    vertical-align: top;
+  border-bottom: 5px solid #464646;
+  display: inline-block;
+  vertical-align: top;
 }
 
 #publications .col-content {
-	padding-top: 20px;
-    vertical-align: text-bottom;
+  padding-top: 20px;
+  vertical-align: text-bottom;
 }
 
 #research {
-	padding-bottom: 3rem;
+  padding-bottom: 3rem;
 }
 
 h3 {
-	font-size: 2rem;
-    font-weight: 100;
-    margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 100;
+  margin-bottom: 2rem;
 }
 
 p.date {
-	margin-bottom: 0.5rem;
-    /* border-top: 1px solid rgba(256,256,256,0.5);
-    padding-top: 0.5rem; */
-    display: inline-block;
+  margin-bottom: 0.5rem;
+  /* border-top: 1px solid rgba(256,256,256,0.5);
+		padding-top: 0.5rem; */
+  display: inline-block;
 }
 
 span.address {
-	font-weight: 200;
-	font-style: italic;
-	margin-left: 1rem;
-    padding-left: 1rem;
-	border-left: 1px solid;
+  font-weight: 200;
+  font-style: italic;
+  margin-left: 1rem;
+  padding-left: 1rem;
+  border-left: 1px solid;
 }
 
 .contact .fa {
-    font-size: 1.3rem;
+  font-size: 1.3rem;
 }
 
 .address .fa {
-    font-size: 1.3rem;
+  font-size: 1.3rem;
 }
 
 a.activity-link {
-	padding: 5px 10px;
-    background-color: #ffffffeb;
-    margin-top: 10px;
-    display: block;
-    width: 151px;
+  padding: 5px 10px;
+  background-color: #ffffffeb;
+  margin-top: 10px;
+  display: block;
+  width: 151px;
 }
 
 p.activity {
-    font-family: 'Libre_Baskerville', 'Times New Roman', Times, serif;
-    font-weight: 300;
-    margin-bottom: 0.3rem;
-	line-height: initial;
-	font-size: 1.1rem;
+  font-family: "Libre_Baskerville", "Times New Roman", Times, serif;
+  font-weight: 300;
+  margin-bottom: 0.3rem;
+  line-height: initial;
+  font-size: 1.1rem;
 }
 
 #teaching h3 {
-	margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 #introContact {
-	background: #0072b7;
-    color: white;
+  background: #0072b7;
+  color: white;
 }
 
 #teaching ul {
-	padding: 1rem 3px;
+  padding: 1rem 3px;
 }
 
 .fold {
-	cursor: pointer;
-	position: relative;
+  cursor: pointer;
+  position: relative;
 }
 
 .fold > i {
-	position: absolute;
-	left:50em;
-	top: 0;
+  position: absolute;
+  left: 50em;
+  top: 0;
 }
 
 .fold:last-child {
-	margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
-#ottoUniv, #karlsUniv {
-	display: none;
+#ottoUniv,
+#karlsUniv {
+  display: none;
 }
 
 h4 {
-	font-size: 1.5rem;
-    margin-bottom: 0.3rem;
-    font-family: 'Libre_Baskerville', 'Times New Roman', Times, serif;
-    font-weight: 300;
-	line-height: initial;
-	margin-top: 2rem;
+  font-size: 1.5rem;
+  margin-bottom: 0.3rem;
+  font-family: "Libre_Baskerville", "Times New Roman", Times, serif;
+  font-weight: 300;
+  line-height: initial;
+  margin-top: 2rem;
 }
 
 .collaboration {
-	margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 i {
-	margin-right: 10px;
+  margin-right: 10px;
 }
 
 #jumbo + .row {
-	height: 0;
+  height: 0;
 }
 
 footer {
-	padding: 1rem 1rem 0;
-    background: #464646;
-    color: white;
-    font-weight: bold;
-	font-family: 'Libre_Baskerville', 'Times New Roman', Times, serif;
+  padding: 1rem 1rem 0;
+  background: #464646;
+  color: white;
+  font-weight: bold;
+  font-family: "Libre_Baskerville", "Times New Roman", Times, serif;
 }
 
 footer article {
-	background: #464646!important;
+  background: #464646 !important;
 }
 
-#imprint, #imprint .col-title {
-	color: white;
-	font-family: Roboto, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+#imprint,
+#imprint .col-title {
+  color: white;
+  font-family: Roboto, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #imprint p {
-	margin-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 span.topic {
-	font-weight: 200;
-    font-style: italic;
-    margin-left: 0.2rem;
-    padding-left: 1rem;
-    border-left: 1px solid;
+  font-weight: 200;
+  font-style: italic;
+  margin-left: 0.2rem;
+  padding-left: 1rem;
+  border-left: 1px solid;
 }
 
 #introContact a {
-	color: white;
+  color: white;
 }
 
 #teaching span.date {
-	min-width: 141px;
-    display: inline-block;
+  min-width: 141px;
+  display: inline-block;
 }
 
 #teaching p.description {
-    margin-top: 0.5rem;
+  margin-top: 0.5rem;
 }
 
 #introContact .title {
-	font-family: 'Libre_Baskerville', 'Times New Roman', Times, serif;
-    font-size: 2rem;
-	font-weight: bold;
-	margin-right: 20px;
-	position: relative;
-    bottom: 3px;
+  font-family: "Libre_Baskerville", "Times New Roman", Times, serif;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-right: 20px;
+  position: relative;
+  bottom: 3px;
 }
 
 #research .title {
-	margin-right: 20px;
-	position: relative;
-	bottom: 3px;
-	padding-right: 1rem;
+  margin-right: 20px;
+  position: relative;
+  bottom: 3px;
+  padding-right: 1rem;
 }
 
 .focus-point {
-	border-right: 2px solid;
+  border-right: 2px solid;
 }
 
 #introContact .content-container i {
-	margin-right: 1rem;
-	min-width: 1.3rem;
+  margin-right: 1rem;
+  min-width: 1.3rem;
 }
 #introContact > i {
-    position: absolute;
-    right: calc(50% - 8rem);
-    color: rgba(0, 0, 0, 0.2);
-    /* background-color: white; */
-    font-size: 16rem;
+  position: absolute;
+  right: calc(50% - 8rem);
+  color: rgba(0, 0, 0, 0.2);
+  /* background-color: white; */
+  font-size: 16rem;
 }
 
 #imprint {
-	background: #2b2b2b!important;
+  background: #2b2b2b !important;
 }
 
 #research h4 {
-	margin-bottom: 1rem;
-    font-weight: bold;
+  margin-bottom: 1rem;
+  font-weight: bold;
 }
 
 #introContact .col-md-3 {
-	padding-left: 3rem;
+  padding-left: 3rem;
 }
 
 a.activity-link {
-	display: inline-block;
-	width: auto;
+  display: inline-block;
+  width: auto;
 }
 
 #research .col-content h4 {
-	margin-top: 0;
+  margin-top: 0;
 }
 
 #privacy {
-	font-family: Roboto, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-	font-weight: 300;
+  font-family: Roboto, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 300;
 }
 
 #privacy p {
-	margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 #privacy h2 {
-	font-weight: bold;
-	font-family: Roboto, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-family: Roboto, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #privacy .col-title {
-	color: white;
+  color: white;
 }
 
 #cv .description {
-	font-family: 'Libre_Baskerville', 'Times New Roman', Times, serif;
-	padding-top: 0.3rem;
+  font-family: "Libre_Baskerville", "Times New Roman", Times, serif;
+  padding-top: 0.3rem;
 }
 
-#description a, #introContact a, #research a {
-	color: white;
-	text-decoration: underline;
+#description a,
+#introContact a {
+  color: white;
+  text-decoration: underline;
 }
 
 #description p {
-	font-size: 1.2rem;
-	font-style: italic;
+  font-size: 1.2rem;
+  font-style: italic;
 }
 
 #description .col-content {
-	padding: 1rem;
-    background: #ffffff24;
+  padding: 1rem;
+  background: #ffffff24;
 }
 
 .cv-wrapper {
-    padding: 1rem 0;
+  padding: 1rem 0;
 }
 
 .content-block {
-	border-left: 5px solid white;
-    padding: 0 1rem;
-    margin-bottom: 1.5rem;
-}
-
-sup {
-	position: relative;
-    top: -3px;
+  border-left: 5px solid white;
+  padding: 0 1rem;
+  margin-bottom: 1.5rem;
 }
 
 /* media querries */
 
-@media screen and (max-width:991px) {
-	#research .contact {
-		padding-left: 0;
-	}
+@media screen and (max-width: 991px) {
+  html {
+    font-size: 150.01%;
+  }
 
-	span.article-content {
-		font-size: 1.1rem;
-	}
+  #research .contact {
+    padding-left: 0;
+  }
 
-	#introContact > div, #introContact .col-md-3 {
-		padding: 0;
-	}
+  span.article-content {
+    font-size: 1.1rem;
+  }
 
-	#introContact .contact {
-		padding-left: 0;
-	}
+  #introContact > div,
+  #introContact .col-md-3 {
+    padding: 0;
+  }
 
-	#introContact {
-		padding: calc(1rem + 15px);
-	}
+  #introContact .contact {
+    padding-left: 0;
+  }
 
-	#introContact .title {
-		margin-bottom: 2rem;
-	}
+  #introContact {
+    padding: calc(1rem + 15px);
+  }
 
-	#introContact .address {
-		margin-bottom: 2rem;
-	}
+  #introContact .title {
+    margin-bottom: 2rem;
+  }
 
-	#introContact .col-sm-3 {
-		width: 50%;
-		margin-right: 2rem;
-	}
+  #introContact .address {
+    margin-bottom: 2rem;
+  }
 
-	.fold > i {
-		left: -5px;
-		top: 5px;
-	}
+  #introContact .col-sm-3 {
+    width: 50%;
+    margin-right: 2rem;
+  }
 
-	#teaching h4 {
-		padding-left: 1rem;
-	}
+  .fold > i {
+    left: -5px;
+    top: 5px;
+  }
 
-	body #intro ul {
-		font-size: 3rem;
-	}
-	#jumbo {
-		background: url(../yoshi_tablet_1024.jpg) no-repeat center center fixed;
-	}
+  #teaching h4 {
+    padding-left: 1rem;
+  }
+
+  body #intro ul {
+    font-size: 3rem;
+  }
+  #jumbo {
+    background: url(../yoshi_tablet_1024.jpg) no-repeat center center fixed;
+  }
 }
 
-@media screen and (max-width:767px) {
-	#introContact .col-sm-3 {
-		width: 100%;
-	}
+@media screen and (max-width: 767px) {
+  html {
+    font-size: 200%;
+  }
 
-	body #intro ul {
-		font-size: 2.5rem;
-	}
+  #introContact .col-sm-3 {
+    width: 100%;
+  }
 
-	#jumbo {
-		background-position-x: left;
-	}
+  body #intro ul {
+    font-size: 2.5rem;
+  }
 
-	#intro li span {
-		line-height: 2.5rem;
-	}
+  #jumbo {
+    background-position-x: left;
+  }
+
+  #intro li span {
+    line-height: 2.5rem;
+  }
 }
 
+@media screen and (max-width: 500px) {
+  body #intro ul {
+    font-size: 1.5rem;
+  }
 
-@media screen and (max-width:500px) {
-	body #intro ul {
-		font-size: 1.5rem;
-	}
+  html {
+    font-size: 200.01%;
+  }
 
-	#intro li span {
-		line-height: 1.5rem;
-	}
+  #intro li span {
+    line-height: 1.5rem;
+  }
 
-	#introContact h1 {
-		font-size: 1.5rem;
-	}
+  #introContact h1 {
+    font-size: 1.5rem;
+  }
 
-	article .col-title {
-		font-size: 2.3rem;
-	}
-	#jumbo {
-		background: url(../yoshi_mobile_400.jpg) no-repeat center center fixed;
-	}
+  article .col-title {
+    font-size: 2.3rem;
+  }
+  #jumbo {
+    background: url(../yoshi_mobile_400.jpg) no-repeat center center fixed;
+  }
 }
 
-@media screen and (max-width:1500px) {
-	#intro li span {
-		padding: 5px 10px;
-	}
-	#intro ul {
-		font-size: 3.5rem;
-	}
-	li {
-		margin-bottom: 1.5rem;
-	}
-	#introContact {
-		font-size: 1.5rem;
-	}
-	p.activity {
-		font-size: 1rem;
-	}
+@media screen and (max-width: 1500px) {
+  #intro li span {
+    padding: 5px 10px;
+  }
+  #intro ul {
+    font-size: 3.5rem;
+  }
+  li {
+    margin-bottom: 1.5rem;
+  }
+  #introContact {
+    font-size: 1.5rem;
+  }
+  p.activity {
+    font-size: 1rem;
+  }
 }
 
-@media screen and (min-width: 1501px ) and (max-width:2559px) {
-	#introContact {
-		font-size: 1.5rem;
-	}
-	#introContact .title {
-		margin-right: 40px;
-	}
+@media screen and (min-width: 1501px) and (max-width: 2559px) {
+  #introContact {
+    font-size: 1.5rem;
+  }
+  #introContact .title {
+    margin-right: 40px;
+  }
 }
 
-@media screen and (min-width: 2560px ) and (max-width:2879px) {
-	html {
-		font-size: 150.01%;
-	}
-	#introContact {
-		font-size: 2rem;
-	}
-	#introContact .title {
-		margin-right: 40px;
-	}
-	#intro li span {
-		padding: 30px 20px;
-    	font-size: 4rem;
-	}
+@media screen and (min-width: 2560px) and (max-width: 2879px) {
+  html {
+    font-size: 150.01%;
+  }
+  #introContact {
+    font-size: 2rem;
+  }
+  #introContact .title {
+    margin-right: 40px;
+  }
+  #intro li span {
+    padding: 30px 20px;
+    font-size: 4rem;
+  }
 }
 
-@media screen and (min-width: 2880px) and (max-width:3400px) {
-	html {
-		font-size: 180.01%;
-	}
-	#introContact {
-		font-size: 2rem;
-	}
-	#introContact .title {
-		margin-right: 40px;
-	}
-	#intro li span {
-		padding: 30px 20px;
-    	font-size: 4rem;
-	}
+@media screen and (min-width: 2880px) and (max-width: 3400px) {
+  html {
+    font-size: 180.01%;
+  }
+  #introContact {
+    font-size: 2rem;
+  }
+  #introContact .title {
+    margin-right: 40px;
+  }
+  #intro li span {
+    padding: 30px 20px;
+    font-size: 4rem;
+  }
 }
 
-@media screen and (min-width: 3401px ) and (max-width:3839px) {
-	html {
-		font-size: 230.01%;
-	}
-	#introContact {
-		font-size: 2rem;
-	}
-	#introContact .title {
-		margin-right: 40px;
-	}
-	#intro li span {
-		padding: 70px 40px;
-    	font-size: 5rem;
-	}
+@media screen and (min-width: 3401px) and (max-width: 3839px) {
+  html {
+    font-size: 230.01%;
+  }
+  #introContact {
+    font-size: 2rem;
+  }
+  #introContact .title {
+    margin-right: 40px;
+  }
+  #intro li span {
+    padding: 70px 40px;
+    font-size: 5rem;
+  }
 }
 
 @media screen and (min-width: 3840px) {
-	html {
-		font-size: 230.01%;
-	}
-	#introContact {
-		font-size: 2rem;
-	}
-	#introContact .title {
-		margin-right: 40px;
-	}
-	#intro li span {
-		padding: 70px 40px;
-    	font-size: 5rem;
-	}
-	#jumbo {
-		background: url(../yoshi_4k_3840.jpg) no-repeat center center fixed;
-	}
+  html {
+    font-size: 230.01%;
+  }
+  #introContact {
+    font-size: 2rem;
+  }
+  #introContact .title {
+    margin-right: 40px;
+  }
+  #intro li span {
+    padding: 70px 40px;
+    font-size: 5rem;
+  }
+  #jumbo {
+    background: url(../yoshi_4k_3840.jpg) no-repeat center center fixed;
+  }
 }
