@@ -391,6 +391,11 @@ p.article-link-wrapper {
   margin-bottom: 1rem;
 }
 
+#research a {
+  color: white;
+  text-decoration: underline;
+}
+
 #intro > div {
   height: 100%;
 }
@@ -705,6 +710,11 @@ a.activity-link {
     font-size: 150.01%;
   }
 
+  p.article > span {
+    border: none;
+    padding: 0;
+  }
+
   #research .contact {
     padding-left: 0;
   }
@@ -749,11 +759,14 @@ a.activity-link {
   }
 
   body #intro ul {
-    font-size: 3rem;
+    font-size: 2.3rem;
   }
   #jumbo {
     background: url(../yoshi_tablet_1024.jpg) no-repeat center center fixed;
     background-size: cover;
+  }
+  #introContact > i {
+    display: none;
   }
 }
 
@@ -763,7 +776,7 @@ a.activity-link {
   }
 
   html {
-    font-size: 200.01%;
+    font-size:100.01%;
   }
 
   #intro li span {
@@ -771,15 +784,26 @@ a.activity-link {
   }
 
   #introContact h1 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   article .col-title {
     font-size: 2.3rem;
   }
   #jumbo {
-    background: url(../yoshi_mobile_400.jpg) no-repeat center center fixed;
+    background: url(../yoshi_tablet_1024.jpg) no-repeat center center fixed;
     background-size: cover;
+  }
+  article {
+    padding: 0;
+  }
+  #introContact span {
+    font-size: 1.2rem;
+  }
+
+  p.article > span {
+    border: none;
+    padding: 0;
   }
 }
 
