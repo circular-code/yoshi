@@ -230,7 +230,7 @@ html {
 body {
   /* use em like px */
   font-size: 62.5%;
-  color: #333;
+  color: #333333;
 }
 
 body > * {
@@ -467,7 +467,7 @@ span.address {
 
 a.activity-link {
   padding: 5px 10px;
-  background-color: #ffffffeb;
+  background-color: rgba(255, 255, 255, 0.92);
   margin-top: 10px;
   display: block;
   width: 151px;
@@ -684,7 +684,7 @@ a.activity-link {
 
 #description .col-content {
   padding: 1rem;
-  background: #ffffff24;
+  background: rgba(255, 255, 255, 0.14);
 }
 
 .cv-wrapper {
