@@ -321,7 +321,7 @@ p.article-link-wrapper {
 #jumbo {
   background: url(../yoshi_fullhd_1920.jpg) no-repeat center center fixed;
   height: 100%;
-  background-size: cover;
+  background-attachment: scroll;
 }
 
 #introContact {
@@ -402,17 +402,17 @@ p.article-link-wrapper {
 
 #intro ul {
   position: absolute;
-  top: 30px;
+  bottom: 30px;
   right: 30px;
   font-size: 4.5rem;
   text-align: right;
 }
 
 #intro li span {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.4);
   padding: 15px 10px;
   display: inline-block;
-  line-height: 4.5rem;
+  line-height: normal;
   font-weight: 500;
   color: white;
 }
@@ -681,6 +681,11 @@ a.activity-link {
   margin-bottom: 1.5rem;
 }
 
+sup {
+  position: relative;
+  top: -2px;
+}
+
 /* media querries */
 
 @media screen and (max-width: 767px) {
@@ -764,6 +769,7 @@ a.activity-link {
   #jumbo {
     background: url(../yoshi_tablet_1024.jpg) no-repeat center center fixed;
     background-size: cover;
+    background-attachment: scroll;
   }
   #introContact > i {
     display: none;
@@ -776,7 +782,7 @@ a.activity-link {
   }
 
   html {
-    font-size:100.01%;
+    font-size: 100.01%;
   }
 
   #intro li span {
@@ -793,6 +799,7 @@ a.activity-link {
   #jumbo {
     background: url(../yoshi_tablet_1024.jpg) no-repeat center center fixed;
     background-size: cover;
+    background-attachment: scroll;
   }
   article {
     padding: 0;
@@ -804,6 +811,14 @@ a.activity-link {
   p.article > span {
     border: none;
     padding: 0;
+  }
+
+  #intro ul {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    font-size: 4.5rem;
+    text-align: right;
   }
 }
 
@@ -834,6 +849,12 @@ a.activity-link {
   }
 }
 
+@media screen and (min-width: 1921px) {
+  #jumbo {
+    background-size: cover;
+  }
+}
+
 @media screen and (min-width: 2560px) and (max-width: 2879px) {
   html {
     font-size: 150.01%;
@@ -845,7 +866,7 @@ a.activity-link {
     margin-right: 40px;
   }
   #intro li span {
-    padding: 30px 20px;
+    padding: 1rem;
     font-size: 4rem;
   }
 }
@@ -861,7 +882,7 @@ a.activity-link {
     margin-right: 40px;
   }
   #intro li span {
-    padding: 30px 20px;
+    padding: 1rem;
     font-size: 4rem;
   }
 }
@@ -877,7 +898,7 @@ a.activity-link {
     margin-right: 40px;
   }
   #intro li span {
-    padding: 70px 40px;
+    padding: 1rem;
     font-size: 5rem;
   }
 }
@@ -893,7 +914,7 @@ a.activity-link {
     margin-right: 40px;
   }
   #intro li span {
-    padding: 70px 40px;
+    padding: 1rem;
     font-size: 5rem;
   }
   #jumbo {
