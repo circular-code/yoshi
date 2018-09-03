@@ -8,9 +8,18 @@ setTimeout(function() {
 },1000);
 
 $('.fold').on('click', function() {
+    handleSlide($(this));
+});
 
-    var target = $(this),
-        targetList = target.find('ul'),
+
+$('#pastActivityContainer').on('click', function() {
+    handleSlide($(this));
+});
+
+
+
+function handleSlide(target) {
+    var targetList = target.find('ul'),
         icon = target.find('.toggle-icon');
 
     targetList.stop();
@@ -27,4 +36,4 @@ $('.fold').on('click', function() {
         icon.addClass('fa-chevron-up');
         icon.removeClass('fa-chevron-down');
     }
-});
+}

@@ -509,9 +509,25 @@ p.activity {
   margin-bottom: 1rem;
 }
 
+#pastActivityContainer {
+  position: relative;
+}
+
 #ottoUniv,
-#karlsUniv {
+#karlsUniv,
+#pastActivityContainer ul {
   display: none;
+}
+
+#pastActivityContainer h3 {
+  cursor: pointer;
+}
+
+#pastActivityContainer > i {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  cursor: pointer;
 }
 
 h4 {
