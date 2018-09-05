@@ -702,6 +702,10 @@ sup {
   top: -2px;
 }
 
+#pastActivityContainer h3 {
+  padding-right: 3rem;
+}
+
 /* media querries */
 
 @media screen and (max-width: 767px) {
