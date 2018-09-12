@@ -321,6 +321,7 @@ p.article-link-wrapper {
 #jumbo {
   background: url(../yoshi_fullhd_1920.jpg) no-repeat center center fixed;
   height: 100%;
+  background-size: cover;
   background-attachment: scroll;
 }
 
@@ -455,6 +456,7 @@ span.address {
   margin-left: 1rem;
   padding-left: 1rem;
   border-left: 1px solid;
+  line-height: 1.4rem;
 }
 
 .contact .fa {
@@ -468,7 +470,6 @@ span.address {
 a.activity-link {
   padding: 5px 10px;
   background-color: rgba(255, 255, 255, 0.92);
-  margin-top: 10px;
   display: block;
   width: 151px;
 }
